@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.250);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(0, 0, 255, 0.500);
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.form input{
+    height: 1rem;
+}
+
+.form label{
+    margin-bottom: 0.25rem;
+}
+
+.form button{
+    margin: 1rem;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(0, 0, 0, 0.500);
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+}
+
+.form button:hover{
+    background-color: rgb(0, 0, 255, 0.500);
+}
+
+.input-container label{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 2rem;
+    margin: 1rem 0;
+    margin-right: 4rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ar{
+    align-self: center;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    border: 1px solid #000000;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    margin-left: 0;
+    background-color: rgb(212, 255, 212);
+}
+
+.marca{
+    font-size: 1.8rem;
+}

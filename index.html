@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form" id="formulario">
+        <div class="input-container">
+            <label for="marca">Marca</label>
+            <input id="marca" for="marca" type="text">
+        </div>
+
+        <div class="input-container">
+            <label for="modelo">Modelo</label>
+            <input id="modelo" for="modelo" type="text">
+        </div>
+        <div class="input-container">
+            <label for="ano-lancamento">Ano de Lançamento</label>
+            <input id="ano-lancamento" for="ano-lancamento" type="date">
+        </div>
+        <div class="input-container">
+            <label for="preco">Preço</label>
+            <input id="preco" for="preco" type="text">
+        </div>
+        <div class="input-container">
+            <label for="cor">Cor</label>
+            <input id="cor" for="cor" type="text">
+        </div>
+        <div class="input-container ar">
+            <label for="ar-condicionado">Possui Ar-Condicionado?</label>
+            <input id="ar-condicionado" type="checkbox">
+        </div>
+
+        <button>Adicionar Novo Veículo</button>
+    </form>
+
+    <div id="carros" class="container-cards"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
